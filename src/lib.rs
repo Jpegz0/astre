@@ -1,14 +1,13 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+use bevy::prelude::*;
+
+pub struct AstrePlugins;
+
+impl Plugin for AstrePlugins {
+    fn build(&self, app: &mut App) {
+        app.add_systems(Startup, hello_world_system);
+    }
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+fn hello_world_system() {
+    println!("Hello world from Astre!");
 }

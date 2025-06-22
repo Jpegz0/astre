@@ -188,7 +188,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "aster"
+name = "astre"
 version = "0.1.0"
 dependencies = [
  "bevy",

@@ -1,0 +1,16 @@
+[package]
+name = "aster"
+version = "0.1.0"
+edition = "2024"
+description = "A modular game framework for 2d tile-based games"
+license = "Apache-2.0"
+repository = "https://github.com/Jpegz0/aster"
+keywords = ["game", "engine", "2d", "bevy", "tilemap"]
+categories = ["game-engines", "game-development", "graphics", "rendering"]
+
+[lib]
+name = "aster"
+path = "src/lib.rs"
+
+[dependencies]
+bevy = "0.16"

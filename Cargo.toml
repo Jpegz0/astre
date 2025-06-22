@@ -2,7 +2,7 @@
 name = "astre"
 version = "0.1.0"
 edition = "2024"
-description = "A modular game framework for 2d tile-based games"
+description = "A modular game framework for optimised 2d games"
 license = "Apache-2.0"
 repository = "https://github.com/Jpegz0/astre"
 keywords = ["game", "engine", "2d", "bevy", "tilemap"]

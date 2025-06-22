@@ -1,2 +1,2 @@
-# astre
-A modular game framework for 2d tile-based games
+# ASTRE
+A modular game framework for optimised 2d games
